@@ -22,7 +22,7 @@ if __name__ == "__main__":
 
     # Get Today's Date
     x = datetime.datetime.now()
-    date = x.strftime("%m/%d/%Y, %a, %I:%M%P") #Format the date 
+    date = x.strftime("%d/%m/%Y, %a, %I:%M%P") #Format the date 
 
     # Decrypt diary and gitlab password
     print("Decrypting...\n")
